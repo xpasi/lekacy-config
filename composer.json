@@ -1,0 +1,27 @@
+{
+	"name": "Lekacy/Config",
+	"description": "a simple but powerfull configuration manager for PHP.",
+	"keywords": ["configuration"],
+	"license": ["GPL-2.0+"],
+	"version": "0.0.1",
+	"authors": [
+	{
+		"name": "Pasi Rajala",
+		"homepage": "http://jnt-finland.fi",
+		"email": "p@prr.fi"
+	}
+	],
+	"require": {
+		"php": ">=5.5.0"
+		},
+	"require-dev": {
+		"phpunit/phpunit": "4.0.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Lekacy\\Config\\": "src",
+			"Lekacy\\Config\\Containers\\": "src/Containers",
+			"Lekacy\\Config\\Exceptions\\": "src/Exceptions"
+		}
+	}
+}
